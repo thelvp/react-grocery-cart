@@ -1,3 +1,7 @@
+# What this is about / credits
+
+This is a grocery cart app. Credits go to Codecademy, Learn React course, practice 'Arrays in State': https://www.codecademy.com/enrolled/courses/react-101.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
