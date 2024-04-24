@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 
-export default function ItemsList({ items, onItemClick }) {
-  const handleClick = ( {target} ) => {
+export default function ItemList({ items, onItemClick }) {
+  const handleClick = ({ target }) => {
     const item = target.value;
     onItemClick(item);
   };
-
   return (
     <div>
       {items.map((item, index) => (

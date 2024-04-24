@@ -1,6 +1,6 @@
 import React from 'react';
-import Cart from './Cart.jsx';
+import GroceryCart from './GroceryCart';
 
 export default function App() {
-  return <Cart/>;
+  return <GroceryCart/>;
 }
