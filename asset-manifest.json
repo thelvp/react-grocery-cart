@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-grocery-cart/static/css/main.438a92ab.css",
+    "main.js": "/react-grocery-cart/static/js/main.43b51b82.js",
+    "index.html": "/react-grocery-cart/index.html",
+    "main.438a92ab.css.map": "/react-grocery-cart/static/css/main.438a92ab.css.map",
+    "main.43b51b82.js.map": "/react-grocery-cart/static/js/main.43b51b82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.438a92ab.css",
+    "static/js/main.43b51b82.js"
+  ]
+}
