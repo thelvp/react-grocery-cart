@@ -6,9 +6,9 @@ export default function ItemList({ items, onItemClick }) {
     onItemClick(item);
   };
   return (
-    <div>
+    <div className="itemList">
       {items.map((item, index) => (
-        <button value={item} onClick={handleClick} key={index}>
+        <button value={item} onClick={handleClick} key={index} className="itemBtn">
           {item}
         </button>
       ))}

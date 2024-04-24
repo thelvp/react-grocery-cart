@@ -14,9 +14,10 @@ export default function GroceryCart() {
   };
 
   return (
-    <div>
+    <div id="main">
       <h1>Grocery Cart</h1>
       <h2>In Cart</h2>
+      {cart.length === 0 ? <p>Your cart is empty - let's buy some stuff! 🎉</p> : null}
       <ul>
         {cart.map((item, index) => (
           <li onClick={() => removeItem(index)} key={index}>
@@ -24,10 +25,16 @@ export default function GroceryCart() {
           </li>
         ))}
       </ul>
-      <h2>Available Produce</h2>
-      <ItemList items={produce} onItemClick={addItem} />
-      <h2>Available Pantry Items</h2>
-      <ItemList items={pantryItems} onItemClick={addItem} />
+      <div className="shopList">
+        <div>
+          <h2>Available Fresh Produce</h2>
+          <ItemList items={produce} onItemClick={addItem} />
+        </div>
+        <div>
+          <h2>Available Pantry Items</h2>
+          <ItemList items={pantryItems} onItemClick={addItem} />
+        </div>
+      </div>
     </div>
   );
 }
