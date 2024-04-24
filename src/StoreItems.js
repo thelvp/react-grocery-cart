@@ -1,0 +1,35 @@
+export const produce = [
+  "Carrots",
+  "Cucumbers",
+  "Bell peppers",
+  "Avocados",
+  "Spinach",
+  "Kale",
+  "Tomatoes",
+  "Bananas",
+  "Lemons",
+  "Ginger",
+  "Onions",
+  "Potatoes",
+  "Purple cabbage",
+  "Broccoli",
+  "Eggs",
+  "Chicken"
+];
+
+export const pantryItems = [
+  "Jam",
+  "Hagelslag",
+  "Peanut butter",
+  "Bread",
+  "Oats",
+  "Olive oil",
+  "Kidney beans",
+  "Chickpeas",
+  "Coffee",
+  "Decaf coffee",
+  "Rice",
+  "Pasta",
+  "Cake",
+  "Crisps",
+];
